@@ -75,7 +75,8 @@ a {
 .hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 25px;
+    border-radius: 10px;
+    padding: 7.5px;
 }
 
 .hero-image {
@@ -146,27 +147,48 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    margin: 100px 200px;
+    margin: 100px 250px;
 }
 
 .quote-author {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    margin: -90px 250px 90px 0px;
+    margin: -90px 275px 90px 0px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 75px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .action-content {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    margin: 75px 100px;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.action-text {
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .action-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 25px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 30px;
 }
 
 .footer {
